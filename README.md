@@ -1,5 +1,7 @@
 # YubiWatcher
 
+![YubiWatcher overlay](docs/overlay.png)
+
 A macOS menu bar app that makes it impossible to miss a YubiKey touch prompt when git signs a commit or tag with a FIDO (`sk-*`) SSH key.
 
 When git starts waiting on `ssh-keygen -Y sign`, YubiWatcher plays a sound and covers every screen with an overlay showing:
